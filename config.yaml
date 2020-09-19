@@ -1,6 +1,5 @@
 ---
-# baseURL: https://doc.poligraf.io/
-baseURL: https://vmdude.github.io/poligraf-doc/public/
+baseURL: https://doc.poligraf.io/
 title: doc.poligraf.io
 theme: hugo-geekdoc
 pygmentsUseClasses: true
