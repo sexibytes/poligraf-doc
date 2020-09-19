@@ -22,7 +22,7 @@ markup:
 params:
   geekdocToC: 3
 
-  geekdocRepo: https://github.com/polibytes/poligraf-doc
+  geekdocRepo: https://github.com/sexibytes/poligraf-doc
   geekdocEditPath: edit/master/content
 
   geekdocSearch: true

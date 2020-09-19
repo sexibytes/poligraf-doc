@@ -4,10 +4,10 @@ more:
     ref: "https://poligraf.io/posts"
     icon: "notification"
   - name: Releases
-    ref: "https://github.com/polibytes/poligraf/releases"
+    ref: "https://github.com/sexibytes/poligraf/releases"
     external: true
     icon: "download"
   - name: "View Source"
-    ref: "https://github.com/polibytes/poligraf"
+    ref: "https://github.com/sexibytes/poligraf"
     external: true
     icon: "github"
