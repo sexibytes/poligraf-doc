@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/posts/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/freenas/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/windows/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/smart/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/hp-c7000/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/shortcodes/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/posts/initial-release/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/posts/hello_geekdoc/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/shortcodes/buttons/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/shortcodes/columns/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/shortcodes/expand/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/shortcodes/hints/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/shortcodes/includes/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/shortcodes/mermaid/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/shortcodes/tabs/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/shortcodes/toc-tree/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/shortcodes/toc/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/toc-tree/level-1/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/toc-tree/level-2/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-fullstats/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-network-usage/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-superstats/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/datastore-usage-distribution/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-capacity-planning/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-quickstats/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-usage/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-datastore-usage/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-storage-pod-usage/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/web-admin/export-import/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/web-admin/house-cleaner/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/web-admin/log-viewer/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/web-admin/package-updater/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/web-admin/pull-exec-time/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/web-admin/refresh-inventory/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/vsphere-top-n-vm-stats/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-iorm/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-multi-esx-litestats/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-disk-utilization/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-diskgroup-capacity/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/esx-fullstats/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/flambx/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/toc-tree/level-1/level-1-1/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/toc-tree/level-1/level-1-2/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/toc-tree/level-1/level-1-3/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/toc-tree/level-1/level-1-3/level-1-3-1/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/toc-tree/level-2/level-2-1/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/toc-tree/level-2/level-2-2/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-cpu-ram-utilization/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/top-n-vm-latency/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/vsphere-top-n-vm-overcommit/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-top-n-vm-snapshot/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/top-n-vmfs-latency/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-vcpu-pcpu/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-vmotion/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-naa-latency/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-resync/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-space-usage-report/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-ssd-stats/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/toc-tree/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-top-n-vmdk/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/vcenter-active-sessions/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/vcenter-bad-events/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/web-admin/vcenter-credstore/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/web-admin/vi-offline-inventory/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-capacity/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-monitor/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-monitor-2nd-ftt/</loc>
+    <lastmod>2020-09-19T18:47:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/poligraf-doc/public/web-admin/</loc>
+    <lastmod>2020-09-19T16:50:49+02:00</lastmod>
+  </url>
+  
+</urlset>

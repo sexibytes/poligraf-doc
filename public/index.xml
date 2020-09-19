@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation on doc.poligraf.io</title>
+    <link>https://vmdude.github.io/poligraf-doc/public/</link>
+    <description>Recent content in Documentation on doc.poligraf.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://vmdude.github.io/poligraf-doc/public/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Initial release</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/posts/initial-release/</link>
+      <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/posts/initial-release/</guid>
+      <description>This is the first release of the Geekdoc theme.
+We decided to build a dedicated website for it instead of keeping surcharging default website as it will add awesomeness for you and for us as well :)</description>
+    </item>
+    
+    <item>
+      <title>Hello Geekdoc</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/posts/hello_geekdoc/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/posts/hello_geekdoc/</guid>
+      <description>This is the first release of the Geekdoc theme.
+Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture. Ornateness bland it ex enc, est yeti am bongo detract re. Pro ad prompts feud gait, quid exercise emeritus bis e. In pro quints consequent, denim fastidious copious quo ad. Stet probates in duo.
+Amalia id per in minimum facility, quid facet modifier ea ma. Ill um select ma ad, en ferric patine sentient vim.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/shortcodes/buttons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/shortcodes/buttons/</guid>
+      <description>Buttons are styled links that can lead to local page or external link.
+{{&amp;lt; button relref=&amp;#34;/&amp;#34; [class=&amp;#34;...&amp;#34;] &amp;gt;}}Get Home{{&amp;lt; /button &amp;gt;}}{{&amp;lt; button href=&amp;#34;https://github.com/xoxys/hugo-geekdoc&amp;#34; &amp;gt;}}Contribute{{&amp;lt; /button &amp;gt;}}Example  Get Home   Contribute   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/shortcodes/columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/shortcodes/columns/</guid>
+      <description>Columns help organize shorter pieces of content horizontally for readability.
+{{&amp;lt; columns &amp;gt;}} &amp;lt;!-- begin columns block --&amp;gt; # Left Content Dolor sit, sumo unique argument um no ... &amp;lt;---&amp;gt; &amp;lt;!-- magic sparator, between columns --&amp;gt; # Mid Content Dolor sit, sumo unique argument um no ... &amp;lt;---&amp;gt; &amp;lt;!-- magic sparator, between columns --&amp;gt; # Right Content Dolor sit, sumo unique argument um no ... {{&amp;lt; /columns &amp;gt;}} Example Left Dolor sit, sumo unique argument um no.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/shortcodes/expand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/shortcodes/expand/</guid>
+      <description>Expand shortcode can help to decrease clutter on screen by hiding part of text. Expand content by clicking on it.
+Example Default {{&amp;lt; expand &amp;gt;}}## Markdown content Dolor sit, sumo unique ... {{&amp;lt; /expand &amp;gt;}} Expand ↕  Markdown content Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture. Ornateness bland it ex enc, est yeti am bongo detract re.   With Custom Label {{&amp;lt; expand &amp;#34;Custom Label&amp;#34; &amp;#34;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/shortcodes/hints/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/shortcodes/hints/</guid>
+      <description>Hint shortcode can be used as hint/alerts/notification block. There are 3 colors to choose: info, warning and danger.
+{{&amp;lt; hint [info|warning|danger] &amp;gt;}}**Markdown content**\ Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture. Ornateness bland it ex enc, est yeti am bongo detract re. {{&amp;lt; /hint &amp;gt;}}Example Markdown content
+Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture. Ornateness bland it ex enc, est yeti am bongo detract re.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/shortcodes/includes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/shortcodes/includes/</guid>
+      <description>Include shortcode can include files of different types. By specifying a language, the included file will have syntax highlighting.
+Shortcode {{&amp;lt; include file=&amp;#34;relative/path/from/hugo/root&amp;#34; language=&amp;#34;go&amp;#34; markdown=[false|true] &amp;gt;}}Attributes:
+   Name Usage default     file path to the included file relative to the hugo root empty value   language* language for syntax highlighting empty value   markdown included file is markdown false   options highlighting options linenos=table    * if not set, the content will be rendered as plain HTML</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/shortcodes/mermaid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/shortcodes/mermaid/</guid>
+      <description>Mermaid is library for generating SVG charts and diagrams from text.
+Example {{&amp;lt; mermaid class=&amp;#34;text-center&amp;#34;&amp;gt;}}sequenceDiagram Alice-&amp;gt;&amp;gt;Bob: Hello Bob, how are you? alt is sick Bob-&amp;gt;&amp;gt;Alice: Not so good :( else is well Bob-&amp;gt;&amp;gt;Alice: Feeling fresh like a daisy end opt Extra response Bob-&amp;gt;&amp;gt;Alice: Thanks for asking end {{&amp;lt; /mermaid &amp;gt;}}    document.addEventListener(&#34;DOMContentLoaded&#34;, function(event) { mermaid.initialize({ flowchart: { useMaxWidth: true } }); });  sequenceDiagram Alice-Bob: Hello Bob, how are you?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/shortcodes/tabs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/shortcodes/tabs/</guid>
+      <description>Tabs let you organize content by context, for example installation instructions for each supported platform.
+{{&amp;lt; tabs &amp;#34;uniqueid&amp;#34; &amp;gt;}}{{&amp;lt; tab &amp;#34;macOS&amp;#34; &amp;gt;}}# macOS Content {{&amp;lt; /tab &amp;gt;}}{{&amp;lt; tab &amp;#34;Linux&amp;#34; &amp;gt;}}# Linux Content {{&amp;lt; /tab &amp;gt;}}{{&amp;lt; tab &amp;#34;Windows&amp;#34; &amp;gt;}}# Windows Content {{&amp;lt; /tab &amp;gt;}}{{&amp;lt; /tabs &amp;gt;}}Example macOS  macOS This is tab macOS content.
+Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture. Ornateness bland it ex enc, est yeti am bongo detract re.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/shortcodes/toc-tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/shortcodes/toc-tree/</guid>
+      <description>The toc-tree shortcode will generate a Table of Content from a section file tree of your content directory. The root of the resulting ToC will be the page on which you define the shortcode.
+{{&amp;lt; toc-tree &amp;gt;}}Example As said, the root will be the site on which the shortcode was used, you can see a demo including nesting in the ToC Tree section.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/shortcodes/toc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/shortcodes/toc/</guid>
+      <description>Simple wrapper to generate a page Table of Content from a shortcode.
+{{&amp;lt; toc &amp;gt;}}   Level 1 Level 2  Level 2.1  Level 2.1.1  Level 2.1.1.1  Level 2.1.1.1.1       Level 2.2       Level 1 Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture. Ornateness bland it ex enc, est yeti am bongo detract re.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-fullstats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-fullstats/</guid>
+      <description>The Cluster FullStats dashboard offers you a single pane of glass for your cluster performance and usage metrics. You will find simple informations like CPU/RAM usage or vmnic traffic but also complex graph like memory quickstats (inspired by the vCenter Cluster utilization tab) or the distributed fairness graph with the fairness quickstats of distributed CPU/RAM resources allocation on the cluster hosts.
+In the IORM row, you’ll find the average latency and the IOPS sum of the cluster shared datastores.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-network-usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-network-usage/</guid>
+      <description>This dashboard allows you to compare the selected vmnic of the selected ESX in your favorite cluster. If this cluster is contained in a blade enclosure, you’re now able to check what is going in and out from your chassis. Noticed the cacti style of the graphs?
+
+In version 0.99e, we’ve added the droppedTX, droppedRX, errorsTX and errorsRX counters (on the right Y axis) so can have a bit of history for those metrics in your favourite tool:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-superstats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-superstats/</guid>
+      <description>In PoliGraf 0.99f, we introduced new cluster level metrics computed from hosts metrics like hba, network, storage, power etc… So now you can visualise your 1000 clusters stats in a second:
+
+We also added datastore count, cpu latency and allocated memory.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/datastore-usage-distribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/datastore-usage-distribution/</guid>
+      <description>Ever Wonder what your datastores are full of? How much swap and snapshots are consuming per cluster?
+Since PoliGraf 0.99d the Multi Cluster Datastore Usage Distribution dashboard let you monitor the datastore usage per filetype like the old-shool VMware pie chart but Harder, Better, Faster, Stronger and at the cluster level:
+
+Because the Disk extent (-flat/-delta/-s/-rdm/-rdmp.vmdk) file VMware File-type was a bit too inclusive, we took the liberty to split it to add new ones like rdmExtent, rdmpExtent, snapshotExtent and snapshotDescriptor.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-capacity-planning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-capacity-planning/</guid>
+      <description>“How many more VMs can we deploy on those clusters?” Your boss probably asked you this one a dozen time. This time is over. This great dashboard shows you how many vm runs and how many you got left based on compute and storage consumption for each cluster.
+Want to compare only 3 of them? Just select them in the list. You got different SLA based on overcommit ratios or replication on your DR site?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-quickstats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-quickstats/</guid>
+      <description>If you need to compare the basic compute and storage metrics between your clusters, this is the dashboard you’re looking for.
+
+If you need to compare standalone ESX, it’s the Multi ESX QuickStats.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-usage/</guid>
+      <description>In this dashboard, each cluster is a color box displaying the most constrained resource among CPU, RAM and storage. For example, when a cluster is using 33% of CPU, 58% of RAM and 40% of the shared storage, 58% will be displayed. If another cluster uses 21% of CPU, 45% of RAM and 76% of the shared storage, 76% will be displayed. The box is green between 1% and 65%, yellow between 65% and 80%, red above 80% and white under 1% so you can’t miss anything in your infrastructure.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-datastore-usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-datastore-usage/</guid>
+      <description>You got a mail from your boss asking you a storage report to plan the next storage array migration? Just go the Multi Datastore Usage dahsboard, pick the target clusters and send him a screenshot. It only took you 15sec. Or maybe you’re just curious about the overall storage overcommit of your VDI infrastructure. The big graph a the top is the aggregation of every selected datastores of the selected clusters displayed in the small graph at the bottom.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-storage-pod-usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-storage-pod-usage/</guid>
+      <description>Using Storage Pod aka Datastore Cluster? In PoliGraf 0.99f we’ve introduced an early Storage Pod Usage dashboard with a computed uncommitted metric from the child datastores, very handy. We called it “early support” because we didn’t linked the pods to the clusters but to the datacenters because it’s the way it is in the VMware API world, you can have a pod for many clusters. So until we figure out a smart way to do it, we’ll stick to that.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/web-admin/export-import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/web-admin/export-import/</guid>
+      <description>In 0.99e version, we’ve added the Export / Import section to let you migrate your PoliGraf configuration (vCenter credentials) AND data (wisper files) from one appliance to another.
+The process is fairly simple, you click on Generate export bundle and the appliance creates you an iso file to download (this might take from few seconds to few minutes depending on your environment size). If a dump is already present, Generate export bundle function will overwrite it without prompt.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/web-admin/house-cleaner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/web-admin/house-cleaner/</guid>
+      <description>The House Cleaner (formerly Stats Remover) will let you manage Graphite data (Whisper files) and vCenter session data (Token files). Through this web-ui, you will be able to remove legacy or orphaned stats (i.e. after datastore removal), vCenter session files (for authentication troubleshooting) and oldest Whisper files that may no longer be used. They will be displayed in a nice data tree and will let you select any (one or more) files in order to remove them (don’t be afraid, it will ask you some noisy confirmation before hurting your PoliGraf).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/web-admin/log-viewer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/web-admin/log-viewer/</guid>
+      <description>This section have been added to make debugging easier for everyone. It will provides log detail for several components of PoliGraf (such as VI Offline inventory, or statistics runner, …). You will be able to display on your browser the content of these logs for troubleshooting purpose. It can guide you to identify the source of the issue (bad username/password combination, runtime error, …) and can be useful for us to give you a hand if you need.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/web-admin/package-updater/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/web-admin/package-updater/</guid>
+      <description>As we plan to add lot of features and content to the PoliGraf appliance, we wanted to make update flawless for you. We didn’t want to say to you “Please update by redeploying a new appliance”. So we built a native updater that’s available in this section. When we will be releasing a new version of PoliGraf, we will provide you a *.sup package (for PoliGraf Update Package) that you will upload to your appliance thanks to this page.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/web-admin/pull-exec-time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/web-admin/pull-exec-time/</guid>
+      <description>As PoliGraf will retrieve information on vCenter servers, it’s important to keep track of the time it takes to query API. So we added a Pull Exec Time dashboard that will keep track of these query durations for all calls that are made by the appliance (VI, VSAN and inventory). Usually, scripts run in a few seconds, so if queries took too long, you’ll be able to see it right away:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/web-admin/refresh-inventory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/web-admin/refresh-inventory/</guid>
+      <description>The VI Offline Inventory is automatically updated every 6 hours. If you want to force a refresh, you can use this section to perform a manual update. Just navigate from the PoliGraf Web Admin dashboard to this section and follow the walk-through explanation (basically, you just have to press a one or two buttons, we told you we wanted to make it easy-as-pie!).</description>
+    </item>
+    
+    <item>
+      <title>All Cluster Top N VM Stats</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/vsphere-top-n-vm-stats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/vsphere-top-n-vm-stats/</guid>
+      <description>Starting from PoliGraf 0.99b you can monitor the top N VM quickstats***** (1 to 20 VM per graph). Now you can find the bad *sses of your datacenters!
+
+Of course you can also search and pick some VM of your choice to compare their stats. The legend is formated as such to help you locate any tango: &amp;lt;cluster_name&amp;gt;.&amp;lt;vm_name&amp;gt;
+
+In the PoliGraf 0.99d release, we revisited this dashboard to add snapshot usage (storage.</description>
+    </item>
+    
+    <item>
+      <title>Cluster IORM Stats</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-iorm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-iorm/</guid>
+      <description>The IORM (aka SIOC) Stats dashboard let you compare datastores Storage I/O Control latency and IOPS metrics among clusters. See Cluster FullStats dashboard for details.
+
+If you need to aggregate clusters, you want to use the Multi Cluster IORM Stats dashboard and select the clusters you want to participate in the graphs.</description>
+    </item>
+    
+    <item>
+      <title>Cluster Multi ESX LiteStats</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-multi-esx-litestats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-multi-esx-litestats/</guid>
+      <description>Since we got some spare stats, we used it in a light host centric dashboard so you can have a quick look at ALL your hosts CPU/RAM usage and uptime (cluster member and standalone).</description>
+    </item>
+    
+    <item>
+      <title>Disk Utilization</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-disk-utilization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-disk-utilization/</guid>
+      <description>The vSAN DiskGroup Capacity dashboard is really useful to monitor the vSAN space usage and distribution but sometime you would need to monitor the space consumption at the device level. For instance, when you evacuate a device to replace it, it’s critical to be able to follow the ongoing process. That’s why in PoliGraf 0.99d we added the vSAN Disk Utilization dashboard:</description>
+    </item>
+    
+    <item>
+      <title>Diskgroup Capacity</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-diskgroup-capacity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-diskgroup-capacity/</guid>
+      <description>In PoliGraf 0.99b we added an enhanced version of the initial vSAN Capacity dashboard. The vSAN DiskGroup Capacity let you monitor the space usage of each diskgroup of each cluster node. Now you see what is going on when you manually initiate Proactive Rebalance.</description>
+    </item>
+    
+    <item>
+      <title>ESX FullStats</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/esx-fullstats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/esx-fullstats/</guid>
+      <description>The ESX FullStats dashboard is similar to the Cluster FullStats but for standalone ESX servers. Because we focus on ESX resources here, we did not aggregated the datastore and vmnic metrics. You’ll find a graph for every single one of them but you can select which one will be displayed if not all.
+Like in Cluster Fullstats, you’ll be able to track memory overcommit (i.e. TPS) in the memory quickstats graph but also CPU power management impact in the CPU utilization/demand graph if demand&amp;gt;usage.</description>
+    </item>
+    
+    <item>
+      <title>FlambX</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/flambx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/flambx/</guid>
+      <description>The FlambX (pronounced Flambi-X) dashboard is not actually for you but rather for managers who love BIG numbers. But you’ll probably like it too. It basicaly shows your infrastructure horsepower, or Firepower sometimes.</description>
+    </item>
+    
+    <item>
+      <title>Level 1.1</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/toc-tree/level-1/level-1-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/toc-tree/level-1/level-1-1/</guid>
+      <description>Level 1.1</description>
+    </item>
+    
+    <item>
+      <title>Level 1.2</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/toc-tree/level-1/level-1-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/toc-tree/level-1/level-1-2/</guid>
+      <description>Level 1.2</description>
+    </item>
+    
+    <item>
+      <title>Level 1.3.1</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/toc-tree/level-1/level-1-3/level-1-3-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/toc-tree/level-1/level-1-3/level-1-3-1/</guid>
+      <description>Level 1.3.1</description>
+    </item>
+    
+    <item>
+      <title>Level 2.1</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/toc-tree/level-2/level-2-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/toc-tree/level-2/level-2-1/</guid>
+      <description>Level 2.1</description>
+    </item>
+    
+    <item>
+      <title>Level 2.2</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/toc-tree/level-2/level-2-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/toc-tree/level-2/level-2-2/</guid>
+      <description>Level 2.2</description>
+    </item>
+    
+    <item>
+      <title>Multi Cluster CPU/RAM Utilization</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-cpu-ram-utilization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-cpu-ram-utilization/</guid>
+      <description>The CPU/RAM Utilization dashboard allows to compare the compute metrics between clusters. Why? Because in 1s you’ll be able to catch if you forgot a host in maintenance mode in a cluster because the effective metric is much low that the total metric. You’ll also be able to see the impact of the power management policy you set on your servers with the demand and usage metrics. You may also noticed how low the guest usage (active) is compared to private metric (consumed).</description>
+    </item>
+    
+    <item>
+      <title>Multi Cluster Top N VM Latency</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/top-n-vm-latency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/top-n-vm-latency/</guid>
+      <description>Storage latency is certainly one of the most critical metric to monitor because of its very unique effect on user perception. See how we could be amazed by NVMe devices for instance (if you don’t know what I’m talking about, stop everything and try one now). The 20 year old post from Stuart Cheshire is still very accurate, It’s the Latency, Stupid!
+The very first version of PoliGraf came out with latency metrics of course but at the datastore level.</description>
+    </item>
+    
+    <item>
+      <title>Multi Cluster Top N VM Overcommit</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/vsphere-top-n-vm-overcommit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/vsphere-top-n-vm-overcommit/</guid>
+      <description>We could have added those graphs in the Top N VM Stats dashboard but we wanted to kept the bad and the ugly apart from the good. Since PoliGraf 0.99b you can also monitor the top N overcommited***** VM (1 to 20 VM per graph).
+
+This dashboard will help you to identify situations like memory limits, vm that have been in contention in the past with remaining zipped/swapped pages or idle tax.</description>
+    </item>
+    
+    <item>
+      <title>Multi Cluster Top N VM Snapshot</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-top-n-vm-snapshot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-top-n-vm-snapshot/</guid>
+      <description>In the history of VMware monitoring tools, PoliGraf 0.99d is the first to introduce VM snapshots monitoring:
+Now you can analyze what’s happening during your backup window and monitor with a surgical precision, per cluster, the snapshot size evolution of your VMs. With this new dashboard, you won’t miss ANY forgotten snaps EVER!
+And since we leverage the parent property of the vdisk objects to determine if it’s a real snapshot (or a vdisk with a funny name), you can also keep track of the hidden snapshots (aka non-consolidated) with this dashboard.</description>
+    </item>
+    
+    <item>
+      <title>Multi Cluster Top N VMFS Latency</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/top-n-vmfs-latency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/top-n-vmfs-latency/</guid>
+      <description>The Cluster IORM Stats dashboards are great when it comes to compare datastores in the same cluster or average &amp;amp; worst latency between cluster but sometimes it’s useful to be able compare the worst datastores per cluster. Hence the Multi Cluster Top N VMFS Latency dashboard. Don’t let the name fools you, NFS are also in the game (Not vSAN though).</description>
+    </item>
+    
+    <item>
+      <title>Multi Cluster vCPU/pCPU</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-vcpu-pcpu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-vcpu-pcpu/</guid>
+      <description>Whether you are running application servers or virtual desktops, you need adjust and monitor the vCPU per physical core ratio. Having a bit of history on that metric let you also anticipate incoming needs so you can scale before getting overcommit issues. That’s why in PoliGraf 0.99d we added a new dedicated dashboard in case you need to compare cluster vCPU consolidation ratios:</description>
+    </item>
+    
+    <item>
+      <title>Multi Cluster vMotion</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-vmotion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-vmotion/</guid>
+      <description>The vMotion frequency is a very useful indicator of the cluster compute resources availabilty for your VMs. If you witness a lot of vMotions in one of your cluster, you may want to evacuate VMs, add resources or change the DRS migration threshold to a more restrictive level.</description>
+    </item>
+    
+    <item>
+      <title>NAA Latency</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-naa-latency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-naa-latency/</guid>
+      <description>The vSAN NAA Latency dashboard (added in PoliGraf 0.99b) let you check the individual latencies of every single device in the vSAN cluster sorted by Network Addressing Authority identifier.
+In v0.99d we’ve also added the hostname owner of the device on each graphic:</description>
+    </item>
+    
+    <item>
+      <title>Resync</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-resync/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-resync/</guid>
+      <description>Instead of endlessly clicking on the refresh button in the “Resyncing Components” tab of the WebClient, we added the vSAN Resync dashboard since PoliGraf 0.99b:
+Now you can really see what’s going on when objects are being resynced, rebuilded or rebalanced. We also added a Recovery Rate graph to check how fast your vSAN backend performs.
+Starting from version 0.99e, we pushed even further and leveraged the vSAN 6.7 API when available.</description>
+    </item>
+    
+    <item>
+      <title>Space Usage Report</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-space-usage-report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-space-usage-report/</guid>
+      <description>PoliGraf 0.99c ships with vSAN 6.2 SDK enabling new kind of dashboards. vSAN Space Usage Report aims to enhance the vSAN Capacity tab in the vSphere Web Client:
+
+You should check the excellent Cormac’s blog post regarding the role of each object type but also the SDK documentation to match with the “interal” property names.</description>
+    </item>
+    
+    <item>
+      <title>SSD Stats</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-ssd-stats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-ssd-stats/</guid>
+      <description>The vSAN SSD Stats dashboard shows various statistics from the caching devices of the vSAN diskgroups.
+The Write Buffer Fill Rate graph is probably the most important as it helps to understand how fast the write buffer fills up and how fast the data are flushed on disk (or flash capacity). As per vSAN Observer settings, the threshold of this metric is 75%.
+According to VMware Virtual SAN Diagnostics and Troubleshooting Reference Manual “One would expect that on a reasonably balanced system that a significant amount of write buffer is consumed.</description>
+    </item>
+    
+    <item>
+      <title>Top N vmdk</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-top-n-vmdk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-top-n-vmdk/</guid>
+      <description>The vSAN Top N vmdk dashboard (added in PoliGraf 0.99a) let you immediately identify the most active VMs on your vsanDatastore “like” the infamously slow Virtual Machine Disk (Top 10) which is not available for vSAN datastores :
+You’ll be able to observe flat vmdk as well as snapshots redo logs activity, select only few vm disks to inspect and also chose between Current, Average or Max consolidation over the selected time range:</description>
+    </item>
+    
+    <item>
+      <title>vCenter Active Sessions</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/vcenter-active-sessions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/vcenter-active-sessions/</guid>
+      <description>Sometimes you may need to monitor vCenter active sessions for troubleshooting purpose since, even if it’s not officially documented (yet), some of us knows the famous “SOAP session count limit reached” error around 2000 active sessions. In Sexigraf 0.99e update, we’ve added a dashboard to let you visualize the active sessions count for every vCenter registered in the credentials store with a user granted with “view and stop sessions” role. Read only accounts won’t work.</description>
+    </item>
+    
+    <item>
+      <title>vCenter Bad Events</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/vcenter-bad-events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/vcenter-bad-events/</guid>
+      <description>After years of SexiLog feedback, we figured out that some VMware users are well aware of the ESXi logs monitoring benefits. We also discovered that the configuration needed to get syslog working is sometime confusing (syslog target, firewall, etc..) but also that the security behind it is also a concern. And of course there is the big players with thousands of ESXi to manage. For all those reasons, starting from PoliGraf 0.</description>
+    </item>
+    
+    <item>
+      <title>vCenter Credstore</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/web-admin/vcenter-credstore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/web-admin/vcenter-credstore/</guid>
+      <description>Out of the box, PoliGraf will not pull any data as it don’t know where your vCenter servers are. First of all, after you’ve deployed it on your platform, you will have to add vCenter information to let the appliance start fetching data. This operation can be achieve from the Credential Store tool. Just go on the PoliGraf Web Admin dashboard and select Credential Store. You will then see the list of all vCenter you already have set up.</description>
+    </item>
+    
+    <item>
+      <title>VI Offline Inventory</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/web-admin/vi-offline-inventory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/web-admin/vi-offline-inventory/</guid>
+      <description>When you work with several vCenter on your platform, it could be a pain in the &amp;hellip; tricky to find virtual machine for daily-basis administration tasks. What we used to do during our past job experience is to build some static inventory, to be able to search quickly cross-vCenter some virtual machine information. It can be really useful, specially if you have an outage and you want to see on which ESX was your vCenter VM.</description>
+    </item>
+    
+    <item>
+      <title>vSAN Capacity</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-capacity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-capacity/</guid>
+      <description>As per VMware Virtual SAN 6.0 Design and Sizing Guide: “VMware is recommending, if possible, 30% free capacity across the Virtual SAN datastore. The reasoning for this slack space size is that Virtual SAN begins automatic rebalancing when a disk reaches the 80% full threshold, generating rebuild traffic on the cluster”. Moreover, if one disk (or flash capacity) of a disk group is full, the VM with objects on it are stunned until vSAN has finish the rebalance of the objects.</description>
+    </item>
+    
+    <item>
+      <title>vSAN Monitor</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-monitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-monitor/</guid>
+      <description>If this dashboard looks familiar this is because it is heavily inspired from vSAN Observer:
+But unlike vSAN Observer, PoliGraf makes vSAN Monitor persistent because when you need it you most likely want to know what just happened. Since you have to launch vSAN Observer and wait few minutes, that particular moment is gone. vSAN Monitor let you explore 6 months from now so you can relax.
+Nevertheless, vSAN Monitor is NOT a replacement for vSAN Observer since it only offers the primary “tabs” where you’ll be able to check the global activity of your vSAN cluster per nodes.</description>
+    </item>
+    
+    <item>
+      <title>vSAN Monitor 2nd FTT</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-monitor-2nd-ftt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-monitor-2nd-ftt/</guid>
+      <description>As described in VMware vSAN 6.6 Technical Overview white paper, vSAN 6.6 introduce secondary level of failures to tolerate (SFTT) for stretched clusters:
+ Starting with vSAN 6.6, it is possible to configure a secondary level of failures to tolerate. This feature enables resiliency within a site, as well as, across sites. For example, RAID-5 erasure coding protects objects within the same site while RAID-1 mirroring protects these same objects across sites.</description>
+    </item>
+    
+  </channel>
+</rss>

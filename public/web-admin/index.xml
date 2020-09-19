@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Admin on doc.poligraf.io</title>
+    <link>https://vmdude.github.io/poligraf-doc/public/web-admin/</link>
+    <description>Recent content in Web Admin on doc.poligraf.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://vmdude.github.io/poligraf-doc/public/web-admin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/web-admin/export-import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/web-admin/export-import/</guid>
+      <description>In 0.99e version, we’ve added the Export / Import section to let you migrate your PoliGraf configuration (vCenter credentials) AND data (wisper files) from one appliance to another.
+The process is fairly simple, you click on Generate export bundle and the appliance creates you an iso file to download (this might take from few seconds to few minutes depending on your environment size). If a dump is already present, Generate export bundle function will overwrite it without prompt.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/web-admin/house-cleaner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/web-admin/house-cleaner/</guid>
+      <description>The House Cleaner (formerly Stats Remover) will let you manage Graphite data (Whisper files) and vCenter session data (Token files). Through this web-ui, you will be able to remove legacy or orphaned stats (i.e. after datastore removal), vCenter session files (for authentication troubleshooting) and oldest Whisper files that may no longer be used. They will be displayed in a nice data tree and will let you select any (one or more) files in order to remove them (don’t be afraid, it will ask you some noisy confirmation before hurting your PoliGraf).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/web-admin/log-viewer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/web-admin/log-viewer/</guid>
+      <description>This section have been added to make debugging easier for everyone. It will provides log detail for several components of PoliGraf (such as VI Offline inventory, or statistics runner, …). You will be able to display on your browser the content of these logs for troubleshooting purpose. It can guide you to identify the source of the issue (bad username/password combination, runtime error, …) and can be useful for us to give you a hand if you need.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/web-admin/package-updater/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/web-admin/package-updater/</guid>
+      <description>As we plan to add lot of features and content to the PoliGraf appliance, we wanted to make update flawless for you. We didn’t want to say to you “Please update by redeploying a new appliance”. So we built a native updater that’s available in this section. When we will be releasing a new version of PoliGraf, we will provide you a *.sup package (for PoliGraf Update Package) that you will upload to your appliance thanks to this page.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/web-admin/pull-exec-time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/web-admin/pull-exec-time/</guid>
+      <description>As PoliGraf will retrieve information on vCenter servers, it’s important to keep track of the time it takes to query API. So we added a Pull Exec Time dashboard that will keep track of these query durations for all calls that are made by the appliance (VI, VSAN and inventory). Usually, scripts run in a few seconds, so if queries took too long, you’ll be able to see it right away:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/web-admin/refresh-inventory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/web-admin/refresh-inventory/</guid>
+      <description>The VI Offline Inventory is automatically updated every 6 hours. If you want to force a refresh, you can use this section to perform a manual update. Just navigate from the PoliGraf Web Admin dashboard to this section and follow the walk-through explanation (basically, you just have to press a one or two buttons, we told you we wanted to make it easy-as-pie!).</description>
+    </item>
+    
+    <item>
+      <title>vCenter Credstore</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/web-admin/vcenter-credstore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/web-admin/vcenter-credstore/</guid>
+      <description>Out of the box, PoliGraf will not pull any data as it don’t know where your vCenter servers are. First of all, after you’ve deployed it on your platform, you will have to add vCenter information to let the appliance start fetching data. This operation can be achieve from the Credential Store tool. Just go on the PoliGraf Web Admin dashboard and select Credential Store. You will then see the list of all vCenter you already have set up.</description>
+    </item>
+    
+    <item>
+      <title>VI Offline Inventory</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/web-admin/vi-offline-inventory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/web-admin/vi-offline-inventory/</guid>
+      <description>When you work with several vCenter on your platform, it could be a pain in the &amp;hellip; tricky to find virtual machine for daily-basis administration tasks. What we used to do during our past job experience is to build some static inventory, to be able to search quickly cross-vCenter some virtual machine information. It can be really useful, specially if you have an outage and you want to see on which ESX was your vCenter VM.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VMware vSphere on doc.poligraf.io</title>
+    <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/</link>
+    <description>Recent content in VMware vSphere on doc.poligraf.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-fullstats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-fullstats/</guid>
+      <description>The Cluster FullStats dashboard offers you a single pane of glass for your cluster performance and usage metrics. You will find simple informations like CPU/RAM usage or vmnic traffic but also complex graph like memory quickstats (inspired by the vCenter Cluster utilization tab) or the distributed fairness graph with the fairness quickstats of distributed CPU/RAM resources allocation on the cluster hosts.
+In the IORM row, you’ll find the average latency and the IOPS sum of the cluster shared datastores.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-network-usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-network-usage/</guid>
+      <description>This dashboard allows you to compare the selected vmnic of the selected ESX in your favorite cluster. If this cluster is contained in a blade enclosure, you’re now able to check what is going in and out from your chassis. Noticed the cacti style of the graphs?
+
+In version 0.99e, we’ve added the droppedTX, droppedRX, errorsTX and errorsRX counters (on the right Y axis) so can have a bit of history for those metrics in your favourite tool:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-superstats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-superstats/</guid>
+      <description>In PoliGraf 0.99f, we introduced new cluster level metrics computed from hosts metrics like hba, network, storage, power etc… So now you can visualise your 1000 clusters stats in a second:
+
+We also added datastore count, cpu latency and allocated memory.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/datastore-usage-distribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/datastore-usage-distribution/</guid>
+      <description>Ever Wonder what your datastores are full of? How much swap and snapshots are consuming per cluster?
+Since PoliGraf 0.99d the Multi Cluster Datastore Usage Distribution dashboard let you monitor the datastore usage per filetype like the old-shool VMware pie chart but Harder, Better, Faster, Stronger and at the cluster level:
+
+Because the Disk extent (-flat/-delta/-s/-rdm/-rdmp.vmdk) file VMware File-type was a bit too inclusive, we took the liberty to split it to add new ones like rdmExtent, rdmpExtent, snapshotExtent and snapshotDescriptor.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-capacity-planning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-capacity-planning/</guid>
+      <description>“How many more VMs can we deploy on those clusters?” Your boss probably asked you this one a dozen time. This time is over. This great dashboard shows you how many vm runs and how many you got left based on compute and storage consumption for each cluster.
+Want to compare only 3 of them? Just select them in the list. You got different SLA based on overcommit ratios or replication on your DR site?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-quickstats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-quickstats/</guid>
+      <description>If you need to compare the basic compute and storage metrics between your clusters, this is the dashboard you’re looking for.
+
+If you need to compare standalone ESX, it’s the Multi ESX QuickStats.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-usage/</guid>
+      <description>In this dashboard, each cluster is a color box displaying the most constrained resource among CPU, RAM and storage. For example, when a cluster is using 33% of CPU, 58% of RAM and 40% of the shared storage, 58% will be displayed. If another cluster uses 21% of CPU, 45% of RAM and 76% of the shared storage, 76% will be displayed. The box is green between 1% and 65%, yellow between 65% and 80%, red above 80% and white under 1% so you can’t miss anything in your infrastructure.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-datastore-usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-datastore-usage/</guid>
+      <description>You got a mail from your boss asking you a storage report to plan the next storage array migration? Just go the Multi Datastore Usage dahsboard, pick the target clusters and send him a screenshot. It only took you 15sec. Or maybe you’re just curious about the overall storage overcommit of your VDI infrastructure. The big graph a the top is the aggregation of every selected datastores of the selected clusters displayed in the small graph at the bottom.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-storage-pod-usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-storage-pod-usage/</guid>
+      <description>Using Storage Pod aka Datastore Cluster? In PoliGraf 0.99f we’ve introduced an early Storage Pod Usage dashboard with a computed uncommitted metric from the child datastores, very handy. We called it “early support” because we didn’t linked the pods to the clusters but to the datacenters because it’s the way it is in the VMware API world, you can have a pod for many clusters. So until we figure out a smart way to do it, we’ll stick to that.</description>
+    </item>
+    
+    <item>
+      <title>All Cluster Top N VM Stats</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/vsphere-top-n-vm-stats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/vsphere-top-n-vm-stats/</guid>
+      <description>Starting from PoliGraf 0.99b you can monitor the top N VM quickstats***** (1 to 20 VM per graph). Now you can find the bad *sses of your datacenters!
+
+Of course you can also search and pick some VM of your choice to compare their stats. The legend is formated as such to help you locate any tango: &amp;lt;cluster_name&amp;gt;.&amp;lt;vm_name&amp;gt;
+
+In the PoliGraf 0.99d release, we revisited this dashboard to add snapshot usage (storage.</description>
+    </item>
+    
+    <item>
+      <title>Cluster IORM Stats</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-iorm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-iorm/</guid>
+      <description>The IORM (aka SIOC) Stats dashboard let you compare datastores Storage I/O Control latency and IOPS metrics among clusters. See Cluster FullStats dashboard for details.
+
+If you need to aggregate clusters, you want to use the Multi Cluster IORM Stats dashboard and select the clusters you want to participate in the graphs.</description>
+    </item>
+    
+    <item>
+      <title>Cluster Multi ESX LiteStats</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-multi-esx-litestats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/cluster-multi-esx-litestats/</guid>
+      <description>Since we got some spare stats, we used it in a light host centric dashboard so you can have a quick look at ALL your hosts CPU/RAM usage and uptime (cluster member and standalone).</description>
+    </item>
+    
+    <item>
+      <title>ESX FullStats</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/esx-fullstats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/esx-fullstats/</guid>
+      <description>The ESX FullStats dashboard is similar to the Cluster FullStats but for standalone ESX servers. Because we focus on ESX resources here, we did not aggregated the datastore and vmnic metrics. You’ll find a graph for every single one of them but you can select which one will be displayed if not all.
+Like in Cluster Fullstats, you’ll be able to track memory overcommit (i.e. TPS) in the memory quickstats graph but also CPU power management impact in the CPU utilization/demand graph if demand&amp;gt;usage.</description>
+    </item>
+    
+    <item>
+      <title>FlambX</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/flambx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/flambx/</guid>
+      <description>The FlambX (pronounced Flambi-X) dashboard is not actually for you but rather for managers who love BIG numbers. But you’ll probably like it too. It basicaly shows your infrastructure horsepower, or Firepower sometimes.</description>
+    </item>
+    
+    <item>
+      <title>Multi Cluster CPU/RAM Utilization</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-cpu-ram-utilization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-cpu-ram-utilization/</guid>
+      <description>The CPU/RAM Utilization dashboard allows to compare the compute metrics between clusters. Why? Because in 1s you’ll be able to catch if you forgot a host in maintenance mode in a cluster because the effective metric is much low that the total metric. You’ll also be able to see the impact of the power management policy you set on your servers with the demand and usage metrics. You may also noticed how low the guest usage (active) is compared to private metric (consumed).</description>
+    </item>
+    
+    <item>
+      <title>Multi Cluster Top N VM Latency</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/top-n-vm-latency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/top-n-vm-latency/</guid>
+      <description>Storage latency is certainly one of the most critical metric to monitor because of its very unique effect on user perception. See how we could be amazed by NVMe devices for instance (if you don’t know what I’m talking about, stop everything and try one now). The 20 year old post from Stuart Cheshire is still very accurate, It’s the Latency, Stupid!
+The very first version of PoliGraf came out with latency metrics of course but at the datastore level.</description>
+    </item>
+    
+    <item>
+      <title>Multi Cluster Top N VM Overcommit</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/vsphere-top-n-vm-overcommit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/vsphere-top-n-vm-overcommit/</guid>
+      <description>We could have added those graphs in the Top N VM Stats dashboard but we wanted to kept the bad and the ugly apart from the good. Since PoliGraf 0.99b you can also monitor the top N overcommited***** VM (1 to 20 VM per graph).
+
+This dashboard will help you to identify situations like memory limits, vm that have been in contention in the past with remaining zipped/swapped pages or idle tax.</description>
+    </item>
+    
+    <item>
+      <title>Multi Cluster Top N VM Snapshot</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-top-n-vm-snapshot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-top-n-vm-snapshot/</guid>
+      <description>In the history of VMware monitoring tools, PoliGraf 0.99d is the first to introduce VM snapshots monitoring:
+Now you can analyze what’s happening during your backup window and monitor with a surgical precision, per cluster, the snapshot size evolution of your VMs. With this new dashboard, you won’t miss ANY forgotten snaps EVER!
+And since we leverage the parent property of the vdisk objects to determine if it’s a real snapshot (or a vdisk with a funny name), you can also keep track of the hidden snapshots (aka non-consolidated) with this dashboard.</description>
+    </item>
+    
+    <item>
+      <title>Multi Cluster Top N VMFS Latency</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/top-n-vmfs-latency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/top-n-vmfs-latency/</guid>
+      <description>The Cluster IORM Stats dashboards are great when it comes to compare datastores in the same cluster or average &amp;amp; worst latency between cluster but sometimes it’s useful to be able compare the worst datastores per cluster. Hence the Multi Cluster Top N VMFS Latency dashboard. Don’t let the name fools you, NFS are also in the game (Not vSAN though).</description>
+    </item>
+    
+    <item>
+      <title>Multi Cluster vCPU/pCPU</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-vcpu-pcpu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-vcpu-pcpu/</guid>
+      <description>Whether you are running application servers or virtual desktops, you need adjust and monitor the vCPU per physical core ratio. Having a bit of history on that metric let you also anticipate incoming needs so you can scale before getting overcommit issues. That’s why in PoliGraf 0.99d we added a new dedicated dashboard in case you need to compare cluster vCPU consolidation ratios:</description>
+    </item>
+    
+    <item>
+      <title>Multi Cluster vMotion</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-vmotion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/multi-cluster-vmotion/</guid>
+      <description>The vMotion frequency is a very useful indicator of the cluster compute resources availabilty for your VMs. If you witness a lot of vMotions in one of your cluster, you may want to evacuate VMs, add resources or change the DRS migration threshold to a more restrictive level.</description>
+    </item>
+    
+    <item>
+      <title>vCenter Active Sessions</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/vcenter-active-sessions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/vcenter-active-sessions/</guid>
+      <description>Sometimes you may need to monitor vCenter active sessions for troubleshooting purpose since, even if it’s not officially documented (yet), some of us knows the famous “SOAP session count limit reached” error around 2000 active sessions. In Sexigraf 0.99e update, we’ve added a dashboard to let you visualize the active sessions count for every vCenter registered in the credentials store with a user granted with “view and stop sessions” role. Read only accounts won’t work.</description>
+    </item>
+    
+    <item>
+      <title>vCenter Bad Events</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/vcenter-bad-events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsphere/vcenter-bad-events/</guid>
+      <description>After years of SexiLog feedback, we figured out that some VMware users are well aware of the ESXi logs monitoring benefits. We also discovered that the configuration needed to get syslog working is sometime confusing (syslog target, firewall, etc..) but also that the security behind it is also a concern. And of course there is the big players with thousands of ESXi to manage. For all those reasons, starting from PoliGraf 0.</description>
+    </item>
+    
+  </channel>
+</rss>

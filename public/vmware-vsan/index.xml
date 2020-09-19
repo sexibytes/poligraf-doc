@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VMware VSAN on doc.poligraf.io</title>
+    <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/</link>
+    <description>Recent content in VMware VSAN on doc.poligraf.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://vmdude.github.io/poligraf-doc/public/vmware-vsan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Disk Utilization</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-disk-utilization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-disk-utilization/</guid>
+      <description>The vSAN DiskGroup Capacity dashboard is really useful to monitor the vSAN space usage and distribution but sometime you would need to monitor the space consumption at the device level. For instance, when you evacuate a device to replace it, it’s critical to be able to follow the ongoing process. That’s why in PoliGraf 0.99d we added the vSAN Disk Utilization dashboard:</description>
+    </item>
+    
+    <item>
+      <title>Diskgroup Capacity</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-diskgroup-capacity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-diskgroup-capacity/</guid>
+      <description>In PoliGraf 0.99b we added an enhanced version of the initial vSAN Capacity dashboard. The vSAN DiskGroup Capacity let you monitor the space usage of each diskgroup of each cluster node. Now you see what is going on when you manually initiate Proactive Rebalance.</description>
+    </item>
+    
+    <item>
+      <title>NAA Latency</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-naa-latency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-naa-latency/</guid>
+      <description>The vSAN NAA Latency dashboard (added in PoliGraf 0.99b) let you check the individual latencies of every single device in the vSAN cluster sorted by Network Addressing Authority identifier.
+In v0.99d we’ve also added the hostname owner of the device on each graphic:</description>
+    </item>
+    
+    <item>
+      <title>Resync</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-resync/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-resync/</guid>
+      <description>Instead of endlessly clicking on the refresh button in the “Resyncing Components” tab of the WebClient, we added the vSAN Resync dashboard since PoliGraf 0.99b:
+Now you can really see what’s going on when objects are being resynced, rebuilded or rebalanced. We also added a Recovery Rate graph to check how fast your vSAN backend performs.
+Starting from version 0.99e, we pushed even further and leveraged the vSAN 6.7 API when available.</description>
+    </item>
+    
+    <item>
+      <title>Space Usage Report</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-space-usage-report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-space-usage-report/</guid>
+      <description>PoliGraf 0.99c ships with vSAN 6.2 SDK enabling new kind of dashboards. vSAN Space Usage Report aims to enhance the vSAN Capacity tab in the vSphere Web Client:
+
+You should check the excellent Cormac’s blog post regarding the role of each object type but also the SDK documentation to match with the “interal” property names.</description>
+    </item>
+    
+    <item>
+      <title>SSD Stats</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-ssd-stats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-ssd-stats/</guid>
+      <description>The vSAN SSD Stats dashboard shows various statistics from the caching devices of the vSAN diskgroups.
+The Write Buffer Fill Rate graph is probably the most important as it helps to understand how fast the write buffer fills up and how fast the data are flushed on disk (or flash capacity). As per vSAN Observer settings, the threshold of this metric is 75%.
+According to VMware Virtual SAN Diagnostics and Troubleshooting Reference Manual “One would expect that on a reasonably balanced system that a significant amount of write buffer is consumed.</description>
+    </item>
+    
+    <item>
+      <title>Top N vmdk</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-top-n-vmdk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-top-n-vmdk/</guid>
+      <description>The vSAN Top N vmdk dashboard (added in PoliGraf 0.99a) let you immediately identify the most active VMs on your vsanDatastore “like” the infamously slow Virtual Machine Disk (Top 10) which is not available for vSAN datastores :
+You’ll be able to observe flat vmdk as well as snapshots redo logs activity, select only few vm disks to inspect and also chose between Current, Average or Max consolidation over the selected time range:</description>
+    </item>
+    
+    <item>
+      <title>vSAN Capacity</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-capacity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-capacity/</guid>
+      <description>As per VMware Virtual SAN 6.0 Design and Sizing Guide: “VMware is recommending, if possible, 30% free capacity across the Virtual SAN datastore. The reasoning for this slack space size is that Virtual SAN begins automatic rebalancing when a disk reaches the 80% full threshold, generating rebuild traffic on the cluster”. Moreover, if one disk (or flash capacity) of a disk group is full, the VM with objects on it are stunned until vSAN has finish the rebalance of the objects.</description>
+    </item>
+    
+    <item>
+      <title>vSAN Monitor</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-monitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-monitor/</guid>
+      <description>If this dashboard looks familiar this is because it is heavily inspired from vSAN Observer:
+But unlike vSAN Observer, PoliGraf makes vSAN Monitor persistent because when you need it you most likely want to know what just happened. Since you have to launch vSAN Observer and wait few minutes, that particular moment is gone. vSAN Monitor let you explore 6 months from now so you can relax.
+Nevertheless, vSAN Monitor is NOT a replacement for vSAN Observer since it only offers the primary “tabs” where you’ll be able to check the global activity of your vSAN cluster per nodes.</description>
+    </item>
+    
+    <item>
+      <title>vSAN Monitor 2nd FTT</title>
+      <link>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-monitor-2nd-ftt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vmdude.github.io/poligraf-doc/public/vmware-vsan/vsan-monitor-2nd-ftt/</guid>
+      <description>As described in VMware vSAN 6.6 Technical Overview white paper, vSAN 6.6 introduce secondary level of failures to tolerate (SFTT) for stretched clusters:
+ Starting with vSAN 6.6, it is possible to configure a secondary level of failures to tolerate. This feature enables resiliency within a site, as well as, across sites. For example, RAID-5 erasure coding protects objects within the same site while RAID-1 mirroring protects these same objects across sites.</description>
+    </item>
+    
+  </channel>
+</rss>

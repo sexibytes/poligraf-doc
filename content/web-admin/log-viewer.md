@@ -1,0 +1,3 @@
+This section have been added to make debugging easier for everyone. It will provides log detail for several components of **PoliGraf** (such as VI Offline inventory, or statistics runner, …). You will be able to display on your browser the content of these logs for troubleshooting purpose. It can guide you to identify the source of the issue (bad username/password combination, runtime error, …) and can be useful for us to give you a hand if you need.
+
+![](/media/log-viewer.gif)

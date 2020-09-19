@@ -1,0 +1,13 @@
+---
+more:
+  - name: News
+    ref: "https://poligraf.io/posts"
+    icon: "notification"
+  - name: Releases
+    ref: "https://github.com/polibytes/poligraf/releases"
+    external: true
+    icon: "download"
+  - name: "View Source"
+    ref: "https://github.com/polibytes/poligraf"
+    external: true
+    icon: "github"
