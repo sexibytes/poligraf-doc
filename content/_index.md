@@ -12,32 +12,4 @@ title: Documentation
 <!-- markdownlint-restore -->
 
 Here is the official documentation for our PoliGraf project.
-
-## Web Admin
-
-blabla webadmin
-
-## VMware VSAN
-
-blabla vsan
-
-## VMware vSphere
-
-blabla vsphere
-
-## FreeNAS
-
-blabla freenas
-
-## Windows
-
-blabla windows
-
-## HP c7000
-
-blabla c7000
-
-## S.M.A.R.T.
-
-blabla smart
-
+You'll find on the left menu all the documentation pages, grouped by category

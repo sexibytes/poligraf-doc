@@ -10,7 +10,9 @@ jobs:
     steps:
       - checkout
       # build with Hugo
-      - run: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
+      - run:
+          name: generate static files
+          command: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
       - run:
           name: test our generated HTML files
           command: |
