@@ -19,7 +19,7 @@ jobs:
             htmlproofer $HUGO_BUILD_DIR --allow-hash-href --check-html \
             --empty-alt-ignore --disable-external
       - persist_to_workspace:
-          root: ~/project
+          root: ~/hugo/public
           paths:
             - .
 
@@ -30,7 +30,7 @@ jobs:
       HUGO_BUILD_DIR: ~/hugo/public
     steps:
       - attach_workspace:
-          at: ~/project
+          at: ~/hugo/public
 
       - run:
           name: dumnmy display
