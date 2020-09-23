@@ -4,30 +4,25 @@ jobs:
   build:
     docker:
       - image: cibuilds/hugo:latest
-    working_directory: ~/hugo
-    environment:
-      HUGO_BUILD_DIR: ~/hugo/public
     steps:
       - checkout
       # build with Hugo
       - run:
           name: generate static files
-          command: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
+          command: HUGO_ENV=production hugo -v -d public
       - run:
           name: htmlproof generated HTML files
           command: |
-            htmlproofer $HUGO_BUILD_DIR --allow-hash-href --check-html \
+            htmlproofer public --allow-hash-href --check-html \
             --empty-alt-ignore --disable-external
       - persist_to_workspace:
-          root: ~/project
+          root: public
           paths:
-            - ~/hugo/public
+            - .
 
   deploy:
     docker:
         - image: cimg/base:2020.01
-    environment:
-      HUGO_BUILD_DIR: ~/hugo/public
     steps:
       - attach_workspace:
           at: ~/project
@@ -37,7 +32,7 @@ jobs:
           command: |
             ls -alR
       - store_artifacts:
-          path: ~/hugo/public
+          path: public
           destination: artifact-hugo-public
 
 workflows:
