@@ -1,24 +1,43 @@
 version: 2.1
+
 jobs:
+  build:
+    docker:
+      - image: cibuilds/hugo:latest
+    working_directory: ~/hugo
+    environment:
+      HUGO_BUILD_DIR: ~/hugo/public
+    steps:
+      - checkout
+      # build with Hugo
+      - run: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
+      - run:
+          name: test our generated HTML files
+          command: |
+            htmlproofer $HUGO_BUILD_DIR --allow-hash-href --check-html \
+            --empty-alt-ignore --disable-external
+      - store_artifacts:
+          path: $HUGO_BUILD_DIR
+          destination: artifact-hugo-public
   deploy:
     docker:
-      - image: cimg/base
+        - image: cimg/base
+    environment:
+      HUGO_BUILD_DIR: ~/hugo/public
     steps:
-      - attach_workspace:
-          at: my-site
-      - run: ls -lah my-site
-orbs:
-  hugo: circleci/hugo@0.2
+      - run:
+          name: dumnmy display
+          command: |
+            ls -alR
+
 workflows:
-  main:
+  build_and_deploy:
     jobs:
-      - hugo/build:
-          html-proofer: true
-          source: ./
-          version: '0.55'
+      - build
       - deploy:
+          requires:
+            - build
           filters:
             branches:
-              only: master
-          requires:
-            - hugo/build
+              only:
+                - master
