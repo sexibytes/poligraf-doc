@@ -7,7 +7,7 @@ Starting from PoliGraf 0.99b you can monitor the top N VM quickstats**\*** (1 to
 
 [![](/media/vmware_multi_cluster_top_n_vm_stats.png)](http://www.poligraf.io/vsphere-sexipanels/vmware_multi_cluster_top_n_vm_stats/)
 
-Of course you can also search and pick some VM of your choice to compare their stats. The legend is formated as such to help you locate any tango: **<cluster\_name\>.<vm\_name\>**
+Of course you can also search and pick some VM of your choice to compare their stats. The legend is formated as such to help you locate any tango: **clustername.vmname**
 
 [![](/media/vmware_multi_cluster_top_n_vm_stats_Select.png)](http://www.poligraf.io/vsphere-sexipanels/vmware_multi_cluster_top_n_vm_stats_select/)
 
