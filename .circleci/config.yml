@@ -19,18 +19,18 @@ jobs:
             htmlproofer $HUGO_BUILD_DIR --allow-hash-href --check-html \
             --empty-alt-ignore --disable-external
       - persist_to_workspace:
-          root: ~/hugo/public
+          root: ~/project
           paths:
-            - .
+            - ~/hugo/public
 
   deploy:
     docker:
-        - image: cimg/base:latest
+        - image: cimg/base:2020.01
     environment:
       HUGO_BUILD_DIR: ~/hugo/public
     steps:
       - attach_workspace:
-          at: ~/hugo/public
+          at: ~/project
 
       - run:
           name: dumnmy display
