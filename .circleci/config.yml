@@ -16,7 +16,7 @@ jobs:
             htmlproofer public --allow-hash-href --check-html \
             --empty-alt-ignore --disable-external
       - persist_to_workspace:
-          root: public
+          root: /
           paths:
             - .
 
