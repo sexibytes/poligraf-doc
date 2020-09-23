@@ -18,19 +18,27 @@ jobs:
           command: |
             htmlproofer $HUGO_BUILD_DIR --allow-hash-href --check-html \
             --empty-alt-ignore --disable-external
-      - store_artifacts:
-          path: $HUGO_BUILD_DIR
-          destination: artifact-hugo-public
+      - persist_to_workspace:
+          root: ~/project
+          paths:
+            - .
+
   deploy:
     docker:
-        - image: cimg/base
+        - image: cimg/base:latest
     environment:
       HUGO_BUILD_DIR: ~/hugo/public
     steps:
+      - attach_workspace:
+          at: ~/project
+
       - run:
           name: dumnmy display
           command: |
             ls -alR
+      - store_artifacts:
+          path: ~/hugo/public
+          destination: artifact-hugo-public
 
 workflows:
   build_and_deploy:
