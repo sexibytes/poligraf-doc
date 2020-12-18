@@ -2,6 +2,7 @@
 more:
   - name: News
     ref: "https://poligraf.io/posts"
+    external: true
     icon: "notification"
   - name: Releases
     ref: "https://github.com/sexibytes/poligraf/releases"
