@@ -33,3 +33,11 @@ Starting [from version 9.10](http://download.freenas.org/9.10/RELEASE/ChangeLog)
 ## Windows
 
 Leveraging the [built-in Graphite listener](http://www.PoliGraf.fr/features/) of PoliGraf, we introduced Windows support in version 0.99c with basic cpu-ram-hdd metrics. To push the metrics we chose to use [the recommended Windows version of collectd](https://collectd.org/features.shtml), SSC Serv. After instaling the lightweight agent, just add your PoliGraf appliance IP address with “SSC.” as prefix and you’re good to go. Now you can monitor your **VEEAM** proxies, like a boss!
+
+## S.M.A.R.T.
+
+Since the first release we wanted to add a **SMART** counters dashboard because we were so inspired by the [Backblaze reports](https://www.backblaze.com/blog/what-smart-stats-indicate-hard-drive-failures/). But we never found a proper way to get those stats from any kind of NAS so we decided to rely on a custom script that pushes the data to graphite using netcat 😉
+
+## pfSense
+
+Because we love and use pfSense very much since the **m0n0wall** fork, we decided to make a great dashboard with system metrics, interface statistics but most importantly [the **pfinfo** data which let you **monitor the packet filtering**](https://docs.netgate.com/pfsense/en/latest/monitoring/status/pfinfo.html) service of the firewall.
