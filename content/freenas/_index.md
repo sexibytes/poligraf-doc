@@ -14,4 +14,4 @@ The “**partition**” and “**interface**” drop down menus let you select o
 
 Say goodbye to the oldish RRD style reporting tabs, just set the ip address of your PoliGraf appliance as Graphite target and reboot your FreeNAS to apply 😉
 
-![](/media/freenas_reporting.png)
+![FreeNAS](/media/freenas_reporting.png)

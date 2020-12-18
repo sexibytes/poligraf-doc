@@ -4,6 +4,8 @@ The House Cleaner (formerly Stats Remover) will let you manage Graphite data (Wh
 
 ![](/media/house-cleaner-02.gif)
 
-In PoliGraf 0.99d we limit the scope to folders to avoid timeouts in big environments. We also added the “Auto Purge” feature (disabled by default) so **you don’t have to worry about removed objects anymore** like deleted items, temporary datastores, VM migrated from a cluster to another one, etc… We hard coded this feature to 120 days but we plan to make this setting tunable:
+In PoliGraf 0.99d we limit the scope to folders to avoid timeouts in big environments. We also added the “Auto Purge” feature (disabled by default) so **you don’t have to worry about removed objects anymore** like deleted items, temporary datastores, VM migrated from a cluster to another one, etc...
 
-![](/media/house-cleaner-03.png)
+Starting from version 0.99g you can force the old object purge if you need to, like after a cluster migration or a massive VM cleanup:
+
+![](/media/webadmin_force_purge.png)

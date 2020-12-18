@@ -1,3 +1,3 @@
-In this dashboard, **each cluster is a color box displaying the most constrained resource among CPU, RAM and storage**. For example, when a cluster is using 33% of CPU, 58% of RAM and 40% of the shared storage, 58% will be displayed. If another cluster uses 21% of CPU, 45% of RAM and 76% of the shared storage, 76% will be displayed. The box is green between 1% and 65%, yellow between 65% and 80%, red above 80% and white under 1% so **you can’t miss anything in your infrastructure**.
+This dashboard has been totally redesigned in version 0.99g so now you can see exaclty what resource is under pressure in your clusters.
 
-[![](/media/vmware_cluster_usage_anon.png)](http://www.poligraf.io/vsphere-sexipanels/vmware_cluster_usage_anon/)
+![](/media/VMware_Multi_Cluster_Usage_v2.png)

@@ -29,6 +29,10 @@ Check out the **Multi Cluster Top N VM QuickStats dashboard** and simply slide o
 
 [![](/media/vmware_multi_cluster_top_n_vm_quickstats_zoom.png)](http://www.poligraf.io/vsphere-sexipanels/vmware_multi_cluster_top_n_vm_quickstats_zoom/)
 
-In PoliGraf 0.99f, we added a variant of that dashboard with **overcommit metrics** but without the **Top N** feature for those with big inventory just wanting to compare a bunch of VMs:
+In PoliGraf 0.99f, we've added a variant of that dashboard with **overcommit metrics** but without the **Top N** feature for those with big inventory just wanting to compare a bunch of VMs: **VMware All Cluster VM Stats**
 
 [![](/media/vmware_all_cluster_vm_stats.png)](http://www.poligraf.io/vmware_all_cluster_vm_stats/)
+
+In version 0.99g we've added CPU Wait metric from which we deduced CPU idle metric in order to only keep the I/O wait : "[The wait total includes time spent the CPU Idle, CPU Swap Wait, and CPU I/O Wait states](https://vdc-download.vmware.com/vmwb-repository/dcr-public/b50dcbbf-051d-4204-a3e7-e1b618c1e384/538cf2ec-b34f-4bae-a332-3820ef9e7773/cpu_counters.html)."
+
+![](/media/099g_cpu_wait.png)

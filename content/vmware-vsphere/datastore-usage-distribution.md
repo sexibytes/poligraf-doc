@@ -10,7 +10,7 @@ Because the [Disk extent (-flat/-delta/-s/-rdm/-rdmp.vmdk) file](http://pubs.vmw
 
 [![](/media/vmware_multi_cluster_datastore_usage_distribution_rdm.png)](http://www.poligraf.io/vsphere-sexipanels/vmware_multi_cluster_datastore_usage_distribution_rdm/)
 
-Since we added a FileType selector, you can pick snapshot file types and track the waste space on your entire infrastructure! And just because we know you’d love it, we also added a **snapshot counter on the right Y axis** 😉
+Since we've added a FileType selector, you can pick snapshot file types and track the waste space on your entire infrastructure! And just because we know you’d love it, we have also added a **snapshot counter on the right Y axis** 😉
 
 [![](/media/vmware_multi_datastore_usage_distribution_snapradar.jpg)](http://www.poligraf.io/vsphere-sexipanels/vmware_multi_datastore_usage_distribution_snapradar/)
 

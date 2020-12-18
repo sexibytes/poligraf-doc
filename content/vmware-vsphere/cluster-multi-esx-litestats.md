@@ -2,7 +2,6 @@
 title: Cluster Multi ESX LiteStats
 ---
 
+This dashboard has been totally redesigned in version 0.99g so now you can see the usage in percentage or mhz/mb and the uptime on the same graph.
 
-Since we got some spare stats, we used it in a light host centric dashboard so you can have a quick look at ALL your hosts CPU/RAM usage and uptime (cluster member and standalone).
-
-[![](/media/vmware_cluster_multi_esx_litestats.png)](http://www.poligraf.io/vsphere-sexipanels/vmware_cluster_multi_esx_litestats/)
+![](/media/Cluster_Multi_ESX_LiteStats_v2.png)

@@ -8,7 +8,7 @@ The process is fairly simple, you click on **Generate export bundle** and the ap
 
 Once you got the iso file, you map it to your new PoliGraf VM’s CD-ROM drive, refresh the page and then click on **Run import process** (This might also take a while depending on your environment). At the end of the process, the iso is ejected for safety purpose:
 
-![](/media/import-iso.png)
+![](/media/sexigraf_export_import_099f_0.png)
 
 {{< hint info >}}
 The import only applies to vCenter connections and collected metrics, **NO PASSWORD** will be changed in the process.
